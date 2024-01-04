@@ -27,13 +27,22 @@
     -->
 
     <link rel="stylesheet" href="assets/font/font.css">
+
+    <!--
+    - preload image
+    -->
+    <link rel="preload" as="image" href="assets/images/loading.svg">
+    <link rel="preload" as="image" href="assets/images/loading-circle.svg">
 </head>
 
 <body>
     <!--
-        - Preloader
+        - #Preloader
     -->
-
+    <div class="preload-box" data-preloader>
+        <img src="assets/images/loading.svg" width="45" height="45" alt="loading">
+        <img src="assets/images/loading-circle.svg" width="75" height="75" alt="loading" class="preload-circle">
+    </div>
 
 
     <!--
